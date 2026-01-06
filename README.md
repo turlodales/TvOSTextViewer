@@ -26,6 +26,24 @@ Customizable properties:
 
 ## Installation
 
+### Swift Package Manager
+
+The [Swift Package Manager](https://swift.org/package-manager/) is a tool for automating the distribution of Swift code and is integrated into the Swift compiler.
+
+To add TvOSTextViewer to your Xcode project, select File > Add Package Dependencies and enter the repository URL:
+
+```
+https://github.com/dcordero/TvOSTextViewer.git
+```
+
+Or add it to your `Package.swift` file:
+
+```swift
+dependencies: [
+    .package(url: "https://github.com/dcordero/TvOSTextViewer.git", from: "1.3.1")
+]
+```
+
 ### Cocoapods
 
 [CocoaPods](https://cocoapods.org) is a dependency manager for Cocoa projects. You can install it with the following command:
@@ -43,7 +61,7 @@ platform :tvos, '9.0'
 use_frameworks!
 
 target '<Your Target Name>' do
-    pod 'TvOSTextViewer', '~> 1.3.0'
+    pod 'TvOSTextViewer', '~> 1.3.1'
 end
 ```
 
@@ -67,7 +85,7 @@ $ brew install carthage
 To integrate TvOSTextViewer into your Xcode project using Carthage, specify it in your Cartfile:
 
 ```
-github "dcordero/TvOSTextViewer" ~> 1.3.0
+github "dcordero/TvOSTextViewer" ~> 1.3.1
 ```
 
 Run `carthage update` to build the framework and drag the built TvOSTextViewer.framework into your Xcode project.

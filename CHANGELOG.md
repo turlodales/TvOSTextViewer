@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [1.3.1] - 2026-01-05
+
+- Add Swift Package Manager support
+
 ## [1.3.0] - 2019-12-23
 
 - Support Xcode 11
